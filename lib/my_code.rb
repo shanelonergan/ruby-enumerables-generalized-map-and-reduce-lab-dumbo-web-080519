@@ -5,5 +5,5 @@ def map(source_array)
 end
 
 def reduce
-  source_array.each {|n| }
+  #source_array.each {|n| }
 end
