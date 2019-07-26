@@ -4,6 +4,6 @@ def map(source_array)
   return new_array
 end
 
-def my_own_reduce
+def reduce
   source_array.each {|n| }
 end
