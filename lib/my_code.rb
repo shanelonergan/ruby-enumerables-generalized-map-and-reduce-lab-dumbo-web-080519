@@ -1,6 +1,6 @@
 def map(source_array)
   new_array = []
-  new_array = source_array.each { |n| new_array.push(yield(n)) }
+  source_array.each { |n| new_array.push(yield(n)) }
   return new_array
 end
 
